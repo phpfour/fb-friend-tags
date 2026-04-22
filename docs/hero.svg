@@ -1,0 +1,94 @@
+<svg width="1200" height="480" viewBox="0 0 1200 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18191a"/>
+      <stop offset="100%" stop-color="#242526"/>
+    </linearGradient>
+    <style>
+      .brand { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .title { font-size: 64px; font-weight: 800; fill: #ffffff; letter-spacing: -1px; }
+      .subtitle { font-size: 22px; font-weight: 600; fill: #1877f2; letter-spacing: 0.2px; }
+      .tagline { font-size: 17px; font-weight: 400; fill: #b0b3b8; }
+      .row-name { font-size: 19px; font-weight: 600; fill: #e4e6eb; }
+      .row-meta { font-size: 13px; font-weight: 400; fill: #b0b3b8; }
+      .badge-text { font-size: 11px; font-weight: 700; letter-spacing: 0.3px; }
+      .avatar-initials { font-size: 17px; font-weight: 700; fill: #ffffff; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="480" fill="url(#bg)"/>
+
+  <!-- Left: brand block -->
+  <g class="brand">
+    <text class="title" x="64" y="200">Friend Tags</text>
+    <text class="subtitle" x="64" y="234">for Facebook</text>
+    <text class="tagline" x="64" y="290">Label your friends with colored tags.</text>
+    <text class="tagline" x="64" y="314">See who's who, right next to their name.</text>
+
+    <!-- Small accent pills -->
+    <g transform="translate(64, 348)">
+      <rect x="0" y="0" width="92" height="26" rx="13" fill="#e53e3e"/>
+      <text class="badge-text" x="46" y="17" text-anchor="middle" fill="#ffffff">ACTIVIST</text>
+
+      <rect x="104" y="0" width="100" height="26" rx="13" fill="#3182ce"/>
+      <text class="badge-text" x="154" y="17" text-anchor="middle" fill="#ffffff">COLLEAGUE</text>
+
+      <rect x="216" y="0" width="72" height="26" rx="13" fill="#38a169"/>
+      <text class="badge-text" x="252" y="17" text-anchor="middle" fill="#ffffff">FRIEND</text>
+    </g>
+  </g>
+
+  <!-- Right: mock profile cards -->
+  <g class="brand" transform="translate(620, 72)">
+    <!-- Card background -->
+    <rect x="0" y="0" width="520" height="336" rx="14" fill="#242526" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+    <!-- Row 1 -->
+    <g transform="translate(24, 28)">
+      <circle cx="22" cy="22" r="22" fill="#805ad5"/>
+      <text class="avatar-initials" x="22" y="28" text-anchor="middle">SC</text>
+      <text class="row-name" x="58" y="20">Sarah Chen</text>
+      <g transform="translate(58, 32)">
+        <rect x="0" y="0" width="76" height="18" rx="9" fill="#e53e3e"/>
+        <text class="badge-text" x="38" y="12.5" text-anchor="middle" fill="#ffffff">DESIGNER</text>
+        <rect x="84" y="0" width="52" height="18" rx="9" fill="#3182ce"/>
+        <text class="badge-text" x="110" y="12.5" text-anchor="middle" fill="#ffffff">NYC</text>
+      </g>
+      <text class="row-meta" x="58" y="64">2 mutual friends · ex-colleague</text>
+    </g>
+
+    <!-- Divider -->
+    <line x1="24" y1="124" x2="496" y2="124" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+    <!-- Row 2 -->
+    <g transform="translate(24, 140)">
+      <circle cx="22" cy="22" r="22" fill="#319795"/>
+      <text class="avatar-initials" x="22" y="28" text-anchor="middle">AK</text>
+      <text class="row-name" x="58" y="20">Ahmed Khan</text>
+      <g transform="translate(58, 32)">
+        <rect x="0" y="0" width="90" height="18" rx="9" fill="#38a169"/>
+        <text class="badge-text" x="45" y="12.5" text-anchor="middle" fill="#ffffff">CLIMBING</text>
+        <rect x="98" y="0" width="72" height="18" rx="9" fill="#d69e2e"/>
+        <text class="badge-text" x="134" y="12.5" text-anchor="middle" fill="#ffffff">COLLEGE</text>
+      </g>
+      <text class="row-meta" x="58" y="64">met at a rooftop party, 2021</text>
+    </g>
+
+    <!-- Divider -->
+    <line x1="24" y1="236" x2="496" y2="236" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+    <!-- Row 3 -->
+    <g transform="translate(24, 252)">
+      <circle cx="22" cy="22" r="22" fill="#d53f8c"/>
+      <text class="avatar-initials" x="22" y="28" text-anchor="middle">MP</text>
+      <text class="row-name" x="58" y="20">Maya Patel</text>
+      <g transform="translate(58, 32)">
+        <rect x="0" y="0" width="96" height="18" rx="9" fill="#805ad5"/>
+        <text class="badge-text" x="48" y="12.5" text-anchor="middle" fill="#ffffff">HIGH SCHOOL</text>
+        <rect x="104" y="0" width="84" height="18" rx="9" fill="#718096"/>
+        <text class="badge-text" x="146" y="12.5" text-anchor="middle" fill="#ffffff">BOOK CLUB</text>
+      </g>
+      <text class="row-meta" x="58" y="64">introduced by Sarah · prolific poster</text>
+    </g>
+  </g>
+</svg>

@@ -1,5 +1,7 @@
 # Friend Tags for Facebook
 
+![Friend Tags for Facebook](./docs/hero.png)
+
 A small Chrome extension that lets you tag your Facebook friends with colored labels. Tags appear inline next to their name on feed posts, comments, and profile pages — like a personal note-to-self about who's who.
 
 > ## ⚠️ Disclaimer
