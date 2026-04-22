@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "name": "Friend Tags for Facebook",
+  "version": "0.1.0",
+  "description": "Tag your Facebook friends with colored labels that appear next to their name.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "src/popup/popup.html",
+    "default_title": "Friend Tags",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "src/background/service-worker.js",
+    "type": "module"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["*://*.facebook.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.facebook.com/*"],
+      "js": [
+        "src/shared/contrast.js",
+        "src/shared/messages.js",
+        "src/shared/storage.js",
+        "src/content/selectors.js",
+        "src/content/userKey.js",
+        "src/content/injector.js",
+        "src/content/popover.js",
+        "src/content/observer.js",
+        "src/content/content.js"
+      ],
+      "css": ["src/styles/badges.css"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ]
+}
