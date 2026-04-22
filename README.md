@@ -4,7 +4,14 @@ A small Chrome extension that lets you tag your Facebook friends with colored la
 
 Not affiliated with Meta. All tagging happens locally in your own browser. The extension makes no network calls of its own.
 
+## Videos
+
+- 📦 **How to install** — https://cleanshot.com/share/lR92W7nq
+- 🏷️ **How to use** — https://cleanshot.com/share/YhpqqkJ2
+
 ## Quick install (no git required)
+
+🎬 [Watch the 60-second install video](https://cleanshot.com/share/lR92W7nq)
 
 1. Download the [latest release zip](https://github.com/phpfour/fb-friend-tags/releases/latest).
 2. Unzip it somewhere you won't accidentally delete (Documents works).
@@ -23,6 +30,8 @@ git clone https://github.com/phpfour/fb-friend-tags.git
 Then follow steps 3–5 above, picking the cloned `fb-friend-tags` folder.
 
 ## How to use
+
+🎬 [Watch the usage walkthrough](https://cleanshot.com/share/YhpqqkJ2)
 
 ### Adding tags
 
