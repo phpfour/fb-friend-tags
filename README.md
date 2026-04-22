@@ -2,7 +2,13 @@
 
 A small Chrome extension that lets you tag your Facebook friends with colored labels. Tags appear inline next to their name on feed posts, comments, and profile pages — like a personal note-to-self about who's who.
 
-Not affiliated with Meta. All tagging happens locally in your own browser. The extension makes no network calls of its own.
+> ## ⚠️ Disclaimer
+>
+> **This extension is NOT affiliated with, endorsed by, or connected to Meta Platforms, Inc. or Facebook in any way.** "Facebook" is a trademark of Meta. This is an independent, community-built tool.
+>
+> **Provided as-is, with no warranty of any kind.** Use at your own risk. See the [full license](#license) for terms. The authors are not liable for any account-related consequences, data loss, or breakage caused by changes to Facebook's website.
+>
+> All tagging happens locally in your own browser. The extension makes no network calls of its own and does not scrape Facebook's data.
 
 ## Videos
 
@@ -139,4 +145,6 @@ No build step. Content scripts are listed individually in `manifest.json` and sh
 
 ## License
 
-MIT.
+MIT — see [LICENSE](./LICENSE).
+
+The MIT License includes the standard warranty disclaimer: **the software is provided "AS IS", without warranty of any kind, express or implied.** The authors are not liable for any claim, damages, or other liability arising from use of the software, including (but not limited to) Facebook account actions, data loss, or the extension breaking when Facebook changes its site.
